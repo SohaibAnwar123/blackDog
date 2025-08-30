@@ -1,0 +1,26 @@
+$primaryFont: 'Poppins';
+$primaryColor: #e58146;
+$blackColor: #000;
+$whiteColor: #fff;
+
+.primaryFont{
+    font-family: $primaryFont;
+}
+.primaryColor{
+    color: $primaryColor;
+}
+.primaryColorBg{
+    background-color: $primaryColor;
+}
+.blackColor{
+    color: $blackColor;
+}
+.blackColorBg{
+    background-color: $blackColor;
+}
+.whiteColor{
+    color: $whiteColor;
+}
+.whiteColorBg{
+    background-color: $whiteColor;
+}

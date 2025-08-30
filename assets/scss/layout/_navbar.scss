@@ -1,0 +1,102 @@
+.navWrap {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: $blackColor;
+
+    .navbar {
+        padding: 0 !important;
+        gap: 40px;
+        flex-direction: column;
+        align-items: start;
+
+        .navbar-nav {
+            width: fit-content;
+            border-top: 1px solid $whiteColor;
+            padding: 20px 0;
+        }
+
+        .navbar-toggler {
+            border: 0;
+            padding: 0 !important;
+        }
+    }
+
+    .navbar-brand {
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            width: 64px;
+        }
+
+        span {
+            color: #E8E9DB;
+            font-size: 22px;
+            font-weight: 300;
+        }
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0 10px;
+        color: $blackColor;
+        font-size: 15px;
+        font-weight: 300;
+        color: $whiteColor;
+    }
+
+}
+
+@media screen and (max-width: 1680px) {}
+
+@media screen and (max-width: 1570px) {}
+
+@media screen and (max-width: 1199.98px) {
+    .navWrap .navbar {
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .navWrap .navbar .navbar-toggler svg {
+        width: 40px;
+        fill: $whiteColor;
+    }
+    .navWrap .navbar .navbar-nav{
+    gap: 16px;
+}
+  .navWrap .navbar .navbar-collapse {
+          top: 120%;
+        background: #000;
+        position: absolute;
+        left: -12px;
+    &.w-100{
+ width: calc(100% + 24px) !important;
+    }
+}
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width:575px) {
+  .navWrap .navbar-brand img {
+    width: 40px;
+}
+.navWrap .navbar-brand span {
+    font-size: 15px;
+}
+.navWrap .navbar-brand {
+    gap: 10px;
+}
+    .navWrap .navbar .navbar-toggler svg {
+        width: 28px;
+    }
+}
