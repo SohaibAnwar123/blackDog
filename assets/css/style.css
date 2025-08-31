@@ -558,6 +558,13 @@ footer p + p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+.heroNext p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 24px;
+}
 .heroNext .heroNextContent {
   background-color: #e58146;
   display: flex;
@@ -565,9 +572,6 @@ footer p + p {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.heroNext img {
-  height: 337px;
 }
 .heroNext h2 {
   font-size: 35px;
@@ -582,6 +586,71 @@ footer p + p {
   border-color: #68add3;
   background-color: #68add3;
   color: #000;
+}
+.heroNext .priceBox {
+  background-color: rgba(255, 255, 255, 0.7333333333);
+  border: 3px solid rgba(255, 255, 255, 0.7333333333);
+  border-radius: 9px;
+}
+.heroNext .priceBox .featureImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+.heroNext .priceBox:first-child {
+  border-color: #FFA400;
+  background-color: #FCFCFC;
+}
+.heroNext .priceBox:first-child h3 {
+  color: #FFA400;
+}
+.heroNext .priceBox:first-child p {
+  color: #FFA400;
+}
+.heroNext .priceBox h3 {
+  color: #236192;
+  font-weight: 700;
+  font-size: 30px;
+}
+.heroNext .priceBox p {
+  color: #236192;
+  font-size: 18px;
+  font-weight: 400;
+}
+.heroNext .priceBox span {
+  color: rgba(84, 89, 95, 0.8);
+  font-size: 18px;
+}
+.heroNext .priceBox h4 {
+  color: rgba(18, 18, 18, 0.8);
+  font-weight: 700;
+  font-size: 64px;
+}
+.heroNext .priceBox h4 .breakdance .price sup {
+  font-size: 60%;
+}
+.heroNext .priceBox .boxContent {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  align-items: center;
+}
+.heroNext .priceBox ul {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.heroNext .priceBox ul li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.heroNext .priceBox ul li img {
+  width: 16px;
 }
 
 .aboutWrap {
