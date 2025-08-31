@@ -3,8 +3,6 @@
     width: 100%;
     z-index: 2;
     top: 0;
-    padding-top: 16px;
-    padding-bottom: 16px;
     background-color: $blackColor;
 
     .navbar {
@@ -31,6 +29,7 @@
         display: flex;
         align-items: center;
         gap: 20px;
+        height: 96px;
 
         img {
             width: 64px;
@@ -95,6 +94,7 @@
 }
 .navWrap .navbar-brand {
     gap: 10px;
+    height: 72px;
 }
     .navWrap .navbar .navbar-toggler svg {
         width: 28px;
